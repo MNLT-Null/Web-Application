@@ -8,8 +8,7 @@ Projekt i implementacja aplikacji webowej do sprzedaży biletóww kinie lub teat
 ```
 docker compose up
 ``` 
-*requires Windows Docker Desktop or manual installation.
-*Download: https://docs.docker.com/desktop/install/windows-install/
+*requires Windows Docker Desktop or manual installation. Download: https://docs.docker.com/desktop/install/windows-install/
 
 ## mongo
 
