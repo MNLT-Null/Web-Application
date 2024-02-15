@@ -1,0 +1,33 @@
+{
+  "name": "kino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "ui": "browser-sync start --config bs-config.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dayjs": "^1.11.10",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.3",
+    "express-session": "^1.17.3",
+    "jquery": "^3.7.1",
+    "mongoose": "^8.1.1",
+    "nodemailer": "^6.9.8",
+    "pug": "^3.0.2",
+    "session-file-store": "^1.5.0",
+    "tempusdominus-bootstrap-4": "^5.39.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "nodemon": "^3.0.3"
+  }
+}

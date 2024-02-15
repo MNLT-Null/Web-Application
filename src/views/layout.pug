@@ -1,0 +1,45 @@
+block variables
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    link(rel="shortcut icon", href="/favicon.ico")
+    meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(name="theme-color", content="#000000")
+    title FilmBuy | #{title}
+    link(rel='stylesheet' href='/css/bootstrap.min.css')
+    link(rel="stylesheet" href="/style.css")
+
+
+  body
+    header(class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom")
+      a(href="/" class="d-flex align-items-center col-md-4 mb-2 mb-md-0 text-dark text-decoration-none")
+        //- img(src="favicon.ico")
+        div.Title
+          h3 FilmBuy | #{title}
+      div.d-flex.flex-wrap.align-items-center.justify-content-center.justify-content-md-between
+        if user
+          if userIsAdmin
+            a.nav-link.px-2.link-secondary(href="/admin") Admin
+          a.nav-link.px-2.link-secondar(href="/users/"+user.id) Profile
+        else
+          ul.nav.col-12.col-md-auto.mb-2.justify-content-center.mb-md-0
+            li
+              a.nav-link.px-2.link-secondary(href="/login") Login
+  
+    main
+      div#root
+        if alert 
+          div.alert.alert-primary(role="alert") #{alert}
+          
+        block layout-content  
+         
+  footer(class="bg-info text-center text-lg-start fixed-bottom")
+    script(src='/js/jquery.min.js')
+    script(src='/js/bootstrap.bundle.min.js')
+
+
+    script.
+      $( document ).ready(function() {
+        $( "div.alert" ).fadeIn( 300 ).delay( 3000 ).fadeOut( 400 )
+      });

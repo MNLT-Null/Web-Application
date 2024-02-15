@@ -1,0 +1,29 @@
+extends ../layout
+block layout-content
+
+  div(class="m-4")
+    table(class="table table-striped")
+      thead
+        tr  
+          th Name 
+          th Description 
+          th Seats 
+          th Delete
+      tbody 
+        each n in screenRooms
+          tr 
+            td #{n.name}
+            td #{n.description}
+            td 
+              each seat in n.seats
+                div(class="container")
+                  div(class="row")
+                    div(class="col-sm")
+                      p #{seat.row}#{seat.number}
+                    div(class="col-sm")
+                      p #{seat.type}
+            td 
+              form(id=n.id action="/admin/screenrooms/"+n.id, method="POST")
+                input(type="hidden" name="_method" value="delete")
+                input(type="submit" class="btn btn-link" value="delete")
+
