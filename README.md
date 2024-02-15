@@ -10,7 +10,7 @@ docker compose up
 ``` 
 *requires Windows Docker Desktop or manual installation. Download: https://docs.docker.com/desktop/install/windows-install/
 
-## mongo
+## mongo (my custom database for application)
 
 * dump db
     ```
