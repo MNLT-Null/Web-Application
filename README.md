@@ -10,13 +10,13 @@ docker compose up
 ``` 
 *requires Windows Docker Desktop or manual installation. Download: https://docs.docker.com/desktop/install/windows-install/
 
-## mongo (my custom database for application)
+## mongoDB (my custom database for application)
 
-* dump db
+* dump db (save db)
     ```
     ./.internal/mongo_tools/mongodump.exe -d kino_db -o db
     ```
-* restore/import db
+* restore/import db (load db)
     ```
     ./.internal/mongo_tools/mongorestore.exe -d kino_db db/kino_db
     ```
