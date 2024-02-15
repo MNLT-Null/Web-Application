@@ -12,7 +12,7 @@ docker compose up
 ### Download Windows Docker Desktop: https://docs.docker.com/desktop/install/windows-install/
 ### Download Visual Studio Code: https://code.visualstudio.com/
 
-## mongoDB (my custom database for application)
+## mongoDB (database commands for backup save and load)
 
 * dump db (save db)
     ```
