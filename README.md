@@ -18,7 +18,8 @@ docker compose up
 ### 5. Open terminal in Visual Studio Code;
 ### 6. Paste code from "start service" and press Enter.
 ![image](https://github.com/MNLT-Null/Web-Application/assets/158077285/e461cf2a-b6cc-44c0-aa08-415d1ce216b2)
-### 7. Move back to Docker and click on port 8001:8001
+### 7. Wait for VS Code to compile the application
+### 8. Move back to Docker and click on port 8001:8001
 ![image](https://github.com/MNLT-Null/Web-Application/assets/158077285/946ffbf8-b823-42e6-b51b-03e017f7db78)
 
 ## Admin Menu
