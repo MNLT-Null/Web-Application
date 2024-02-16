@@ -10,10 +10,11 @@ docker compose up
 ``` 
 *requires Windows Docker Desktop or manual installation and Visual Studio Code with extension Docker.
 ![image](https://github.com/MNLT-Null/Web-Application/assets/158077285/e461cf2a-b6cc-44c0-aa08-415d1ce216b2)
-### 1.Open terminal
-### 2.Paste code from "start service"
-### Download Windows Docker Desktop: https://docs.docker.com/desktop/install/windows-install/
-### Download Visual Studio Code: https://code.visualstudio.com/
+## Instructions
+### 1. Download Windows Docker Desktop: https://docs.docker.com/desktop/install/windows-install/
+### 2. Download Visual Studio Code: https://code.visualstudio.com/
+### 3. Open terminal
+### 4. Paste code from "start service"
 
 ## mongoDB (database commands for backup save and load)
 
