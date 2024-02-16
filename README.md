@@ -10,7 +10,7 @@ docker compose up
 
 ## Instructions
 ### 1. Download Windows Docker Desktop: https://docs.docker.com/desktop/install/windows-install/ ;
-### 2. Install Docker and open. You can skip registration;
+### 2. Install Docker. Restart your computer. Open Docker. You can skip registration;
 ### 3. Download Visual Studio Code: https://code.visualstudio.com/ ;
 ### 4. Install Visual Studio Code. Drag and drop folder with project in VSCode;
 ### 5. Open terminal in Visual Studio Code;
