@@ -21,6 +21,13 @@ docker compose up
 ### 7. Move back to Docker and click on port 8001:8001
 ![image](https://github.com/MNLT-Null/Web-Application/assets/158077285/946ffbf8-b823-42e6-b51b-03e017f7db78)
 
+## Admin Menu
+### If you want access to Admin menu you need to sing in with:
+#### Login: admin
+#### Password: admin
+![image](https://github.com/MNLT-Null/Web-Application/assets/158077285/c87cdfe6-0de3-4ef9-9e6a-33f39ef2fa97)
+
+
 
 ## mongoDB (database commands for backup save and load)
 
