@@ -1,11 +1,7 @@
 # Web-Application
 Projekt i implementacja aplikacji webowej do sprzedaży biletóww kinie lub teatrze. | Розробка та впровадження веб-аплікації для продажу квитків у кіно чи театр.
 
-## start service
 
-```
-docker compose up
-``` 
 *requires Windows Docker Desktop or manual installation and Visual Studio Code with extension Docker.
 
 ## Instructions
@@ -15,8 +11,13 @@ docker compose up
 ### 4. Install Visual Studio Code. Drag and drop folder with project in VSCode;
 ### 5. Open terminal in Visual Studio Code;
 ### 6. Paste code from "start service" and press Enter;
+### start service
+
+```
+docker compose up
+``` 
 ![image](https://github.com/MNLT-Null/Web-Application/assets/158077285/e461cf2a-b6cc-44c0-aa08-415d1ce216b2)
-### 7. Wait for VS Code to compile the application;
+### 7. Wait for VS Code to compile the application *your pc may be laggin 3-5 minutes when compile;
 ### 8. Move back to Docker and click on port 8001:8001 
 ![image](https://github.com/MNLT-Null/Web-Application/assets/158077285/946ffbf8-b823-42e6-b51b-03e017f7db78)
 
